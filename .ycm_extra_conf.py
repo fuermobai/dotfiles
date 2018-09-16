@@ -102,6 +102,11 @@ get_python_inc(),
 
 '-isystem',
 '/usr/include/pcl-1.8/pcl',
+
+'-isystem',
+'/usr/include/opencv',
+'-isystem',
+'/usr/include/opencv2',
 ]
 
 # Clang automatically sets the '-std=' flag to 'c++14' for MSVC 2015 or later,
